@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator by Ashish</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <h1>Arithmetic Calculator</h1>
+
+    <div class="container">
+        <div class="calculator">
+            <input type="text" class="numm1 m-3" placeholder="Enter first Number" id="num1">
+            <input type="text" class="numm2 m-3" placeholder="Enter second Number" id="num2"><br>
+        </div><br>
+        <div class="buttons m-4">
+            <button type="button" onclick="calculate('addition')" class="btn btn-primary m-3">Addition</button>
+            <button type="button" onclick="calculate('subtraction')" class="btn btn-secondary m-3">Substraction</button>
+            <button type="button" onclick="calculate('multiply')" class="btn btn-success m-3">Multiplication</button>
+            <button type="button" onclick="calculate('division')" class="btn btn-danger m-3">Division</button>
+        </div><br>
+        <h2>Result: <span id="result">0</span></h2>
+    </div>
+
+    <footer class="text-center mt-5">
+        <p>Made with ❤️ by Ashish</p>
+
+</body>
+
+</html>
